@@ -1,0 +1,32 @@
+body{
+    margin: 0rem;
+}
+h1{
+    margin: 1rem;
+}
+
+#txt-input{
+    /* display: block; */
+    /* margin: auto; */
+    height: 20vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#btn-translate{
+    /* display: block; */
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#output-div{
+    border: 1px solid black;
+    height: 20vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+
+
+}
