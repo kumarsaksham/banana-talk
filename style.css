@@ -1,32 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+:root{
+    --primary-color: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 body{
-    margin: 0rem;
-}
-h1{
-    margin: 1rem;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color:var(--black);
 }
 
-#txt-input{
-    /* display: block; */
-    /* margin: auto; */
-    height: 20vh;
-    width: 90%;
-    margin: 1rem;
+
+#navigation{
+    font-size: 2rem;
     padding: 1rem;
-    border: 1px solid black;
+    text-align: center;
+    background-color: var(--primary-color);
+
 }
 
-#btn-translate{
-    /* display: block; */
-    margin: 1rem;
-    padding: 0.5rem 1rem;
-}
-
-#output-div{
-    border: 1px solid black;
-    height: 20vh;
-    width: 90%;
-    margin: 1rem;
+main{
+    margin: auto;
     padding: 1rem;
+    max-width: var(--width-break);
+}
 
+main p{
+    margin: 0;
+}
 
+#translate-input{
+    display: block;
+    margin-top: 2rem;
+    height: 20vh;
+    width: 100%;
+    font-size: large;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+#translate-btn{
+    background-color: var(--primary-color);
+    margin: 1rem 0; 
+    padding: 1rem 2rem;
+    border: none;
+    font-size: large;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+#translate-output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    overflow: scroll;
+    font-size: large;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+#footer #footer-heading{
+    text-align: center;
+    font-size: x-large;
+}
+
+#footer p{
+    max-width: var(--width-break);
+    margin: auto;
 }
